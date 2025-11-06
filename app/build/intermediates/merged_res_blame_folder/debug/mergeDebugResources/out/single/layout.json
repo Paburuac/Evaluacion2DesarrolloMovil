@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_login.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_main_tabs.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_main_tabs.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_home_tabs.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_home_tabs.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/fragment_my_characters.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/fragment_my_characters.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_character_detail.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_character_detail.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_campaign_detail.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_campaign_detail.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_register.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/item_campaign.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/item_campaign.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/item_character.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/item_character.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/fragment_campaigns.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/fragment_campaigns.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/dialog_add_character.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/dialog_add_character.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/fragment_create_campaign.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/fragment_create_campaign.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_home.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.amigosycampanas.app-mergeDebugResources-39:/layout/activity_filters.xml",
+        "source": "com.example.amigosycampanas.app-main-42:/layout/activity_filters.xml"
+    }
+]

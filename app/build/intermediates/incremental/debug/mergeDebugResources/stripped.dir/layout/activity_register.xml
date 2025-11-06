@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackBg">  <!-- Fondo oscuro igual que Login -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título -->
+        <TextView
+            android:text="Crear cuenta"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Campo Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:hint="Email (gmail/hotmail)"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="#88FFFFFF"
+            android:backgroundTint="@color/redAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Campo Contraseña -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="#88FFFFFF"
+            android:backgroundTint="@color/redAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Campo Teléfono -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:hint="Teléfono (9 dígitos)"
+            android:inputType="phone"
+            android:maxLength="9"
+            android:textColor="@android:color/white"
+            android:textColorHint="#88FFFFFF"
+            android:backgroundTint="@color/redAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Botón Registrar -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="Registrar"
+            android:textAllCaps="false"
+            android:enabled="false"
+            android:backgroundTint="@color/redAccent"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Link para volver -->
+        <TextView
+            android:text="¿Ya tienes cuenta? Inicia sesión"
+            android:textColor="@color/redAccent"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities_common">
+        <item>Viña del Mar</item>
+        <item>Valparaíso</item>
+        <item>Santiago</item>
+        <item>Quilpué</item>
+        <item>Villa Alemana</item>
+        <item>Concepción</item>
+        <item>La Serena</item>
+        <item>Antofagasta</item>
+        <item>Otra…</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="blackBg">#121212</color>
+    <color name="colorAccent">@color/redAccent</color>
+    <color name="colorPrimary">@color/redPrimary</color>
+    <color name="colorPrimaryDark">@color/redPrimaryDark</color>
+    <color name="colorPrimaryVariant">@color/redPrimaryDark</color>
+    <color name="colorSecondary">@color/teal_200</color>
+    <color name="colorSecondaryVariant">@color/teal_700</color>
+    <color name="md_theme_dark_background">@color/blackBg</color>
+    <color name="md_theme_dark_error">@color/red_200</color>
+    <color name="md_theme_dark_onBackground">@color/white</color>
+    <color name="md_theme_dark_onError">@color/black</color>
+    <color name="md_theme_dark_onPrimary">@color/white</color>
+    <color name="md_theme_dark_onSecondary">@color/black</color>
+    <color name="md_theme_dark_onSurface">@color/white</color>
+    <color name="md_theme_dark_primary">@color/redPrimary</color>
+    <color name="md_theme_dark_secondary">@color/teal_200</color>
+    <color name="md_theme_dark_surface">@color/blackBg</color>
+    <color name="md_theme_light_background">@color/white</color>
+    <color name="md_theme_light_error">@color/red_200</color>
+    <color name="md_theme_light_onBackground">@color/black</color>
+    <color name="md_theme_light_onError">@color/white</color>
+    <color name="md_theme_light_onPrimary">@color/white</color>
+    <color name="md_theme_light_onSecondary">@color/black</color>
+    <color name="md_theme_light_onSurface">@color/black</color>
+    <color name="md_theme_light_primary">@color/redPrimary</color>
+    <color name="md_theme_light_secondary">@color/teal_200</color>
+    <color name="md_theme_light_surface">@color/white</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="redAccent">#FF5252</color>
+    <color name="redPrimary">#FF3B30</color>
+    <color name="redPrimaryDark">#C62828</color>
+    <color name="red_200">#CF6679</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="aplicar">Aplicar</string>
+    <string name="app_name">Amigos y Campañas</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="buscar_hint">Buscar por nombre...</string>
+    <string name="campanas_title">Campañas</string>
+    <string name="ciudad_label">Ciudad:</string>
+    <string name="distancia_label">Distancia máx (km):</string>
+    <string name="go_register">¿No tienes una cuenta? Crea una</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="login_subtitle">Entra para continuar</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="solo_discord">Solo Discord</string>
+    <style name="App.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+        <item name="backgroundTint">@color/redPrimary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="App.Card.Row" parent="">
+        <item name="android:padding">12dp</item>
+        <item name="android:background">#11FFFFFF</item>
+    </style>
+    <style name="App.EditText" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">#88FFFFFF</item>
+    </style>
+    <style name="App.Text.Label" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="App.Text.Subtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="App.Text.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.AmigosyCampanas" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/redPrimary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/blackBg</item>
+        <item name="android:windowBackground">@color/blackBg</item>
+
+        
+        <item name="buttonStyle">@style/App.Button.Primary</item>
+        
+
+        <item name="textAppearanceHeadline6">@style/App.Text.Title</item>
+        <item name="textAppearanceBody1">@style/App.Text.Subtitle</item>
+    </style>
+</resources>

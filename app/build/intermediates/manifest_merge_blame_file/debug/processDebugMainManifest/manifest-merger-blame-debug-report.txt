@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.amigosycampanas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permisos que usa tu app -->
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:8:5-77
+14-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:9:5-66
+15-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:9:22-63
+16
+17    <permission
+17-->[androidx.core:core:1.13.1] C:\Users\vina\.gradle\caches\8.13\transforms\958c8f00105efab7ba0aa91741b6890e\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.amigosycampanas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.13.1] C:\Users\vina\.gradle\caches\8.13\transforms\958c8f00105efab7ba0aa91741b6890e\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.13.1] C:\Users\vina\.gradle\caches\8.13\transforms\958c8f00105efab7ba0aa91741b6890e\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.amigosycampanas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.13.1] C:\Users\vina\.gradle\caches\8.13\transforms\958c8f00105efab7ba0aa91741b6890e\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.13.1] C:\Users\vina\.gradle\caches\8.13\transforms\958c8f00105efab7ba0aa91741b6890e\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:11:5-38:19
+24        android:name="com.example.amigosycampanas.App"
+24-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:12:9-28
+25        android:allowBackup="true"
+25-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:13:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.13.1] C:\Users\vina\.gradle\caches\8.13\transforms\958c8f00105efab7ba0aa91741b6890e\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.AmigosyCampanas" >
+34-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:18:9-53
+35
+36        <!-- Launcher: elige Login como pantalla inicial -->
+37        <activity
+37-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:21:9-28:20
+38            android:name="com.example.amigosycampanas.ui.auth.LoginActivity"
+38-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:22:13-50
+39            android:exported="true" >
+39-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:23:13-36
+40            <intent-filter>
+40-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:24:13-27:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:25:17-69
+41-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:26:17-77
+43-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <!-- Otras pantallas -->
+48        <activity android:name="com.example.amigosycampanas.ui.auth.RegisterActivity" />
+48-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:31:9-62
+48-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:31:19-59
+49        <activity android:name="com.example.amigosycampanas.ui.home.HomeActivity" />
+49-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:32:9-58
+49-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:32:19-55
+50        <activity android:name="com.example.amigosycampanas.ui.detail.CampaignDetailActivity" />
+50-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:33:9-70
+50-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:33:19-67
+51        <activity android:name="com.example.amigosycampanas.ui.filters.FiltersActivity" />
+51-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:34:9-64
+51-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:34:19-61
+52
+53        <!-- (Opcional) si tienes una MainActivity adicional, la dejamos declarada -->
+54        <activity android:name="com.example.amigosycampanas.ui.MainActivity" />
+54-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:37:9-53
+54-->C:\Users\vina\Downloads\AplicacionmovilDnD3.0\AplicacionmovilDnD\app\src\main\AndroidManifest.xml:37:19-50
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vina\.gradle\caches\8.13\transforms\79e7bc91e881e7a93dbbe8bf09cfc413\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vina\.gradle\caches\8.13\transforms\79e7bc91e881e7a93dbbe8bf09cfc413\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.example.amigosycampanas.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vina\.gradle\caches\8.13\transforms\79e7bc91e881e7a93dbbe8bf09cfc413\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vina\.gradle\caches\8.13\transforms\79e7bc91e881e7a93dbbe8bf09cfc413\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vina\.gradle\caches\8.13\transforms\79e7bc91e881e7a93dbbe8bf09cfc413\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vina\.gradle\caches\8.13\transforms\79e7bc91e881e7a93dbbe8bf09cfc413\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vina\.gradle\caches\8.13\transforms\79e7bc91e881e7a93dbbe8bf09cfc413\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\vina\.gradle\caches\8.13\transforms\2f7b65b8e7135e3f4c5ffe45b9aef4f9\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\vina\.gradle\caches\8.13\transforms\2f7b65b8e7135e3f4c5ffe45b9aef4f9\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\vina\.gradle\caches\8.13\transforms\2f7b65b8e7135e3f4c5ffe45b9aef4f9\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\vina\.gradle\caches\8.13\transforms\789d5bec98e53d92c8ab5a7597977b0a\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\vina\.gradle\caches\8.13\transforms\789d5bec98e53d92c8ab5a7597977b0a\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\vina\.gradle\caches\8.13\transforms\789d5bec98e53d92c8ab5a7597977b0a\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\vina\.gradle\caches\8.13\transforms\789d5bec98e53d92c8ab5a7597977b0a\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\vina\.gradle\caches\8.13\transforms\bc195934ccec94fe00baefd6c1690576\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\vina\.gradle\caches\8.13\transforms\bc195934ccec94fe00baefd6c1690576\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\vina\.gradle\caches\8.13\transforms\bc195934ccec94fe00baefd6c1690576\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+79
+80        <service
+80-->[androidx.room:room-runtime:2.6.1] C:\Users\vina\.gradle\caches\8.13\transforms\55ccf411aebc0df4ccd65f59e40ea966\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.6.1] C:\Users\vina\.gradle\caches\8.13\transforms\55ccf411aebc0df4ccd65f59e40ea966\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+82            android:directBootAware="true"
+82-->[androidx.room:room-runtime:2.6.1] C:\Users\vina\.gradle\caches\8.13\transforms\55ccf411aebc0df4ccd65f59e40ea966\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+83            android:exported="false" />
+83-->[androidx.room:room-runtime:2.6.1] C:\Users\vina\.gradle\caches\8.13\transforms\55ccf411aebc0df4ccd65f59e40ea966\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vina\.gradle\caches\8.13\transforms\aa00ae85de52d21f10c477998f3df6ea\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>
